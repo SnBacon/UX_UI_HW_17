@@ -15,18 +15,26 @@ nav {
     font-size: 26px;
     width: 73%;
     padding: 1%;
+    padding-left: 15%;
     text-align: center;
 }
 
 ul {
-    width: 50%;
-    margin-left: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 section.heroImg {
     height: 600px;
     padding: 25px;
 }
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
 
 .content {
     width: 500px;
@@ -39,18 +47,12 @@ section.heroImg {
 footer {
     background-color: #373738;
     width: 100%;
-    position: absolute;
     bottom: 0;
+    position: absolute;
 }
 
 footer ul {
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-    padding-left: 30%;
     color: white;
- 
-
 }
    
 
